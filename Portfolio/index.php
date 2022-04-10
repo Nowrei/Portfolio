@@ -15,7 +15,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Oswald:wght@600&display=swap" rel="stylesheet">
-    
+<!-- link css -->
+<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;1,300&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
@@ -26,9 +33,9 @@
           <i class="fas fa-times close-btn"></i>
         </div>
         <a href="#">Acceuil</a>
-        <a href="#info-compétence">Compétences et Info</a>
-        <a href="#Projets">Projets</a>
-        <a href="#">Contact</a>
+        <a href="#information">Information</a>
+        <a href="#competence">Compétence</a>
+        <a href="#projet">Projets</a>
 
       </div>
       <div class="btn">
@@ -85,7 +92,7 @@
   
 
   <div class="info">
-
+  <h2 id="information"></h2>
       <div class="photo">
       </div>
       <div class="intro">
@@ -96,31 +103,85 @@
       
   </div>
 
-  <div class="competence">
+<div class="competence">
+<h2 id="competence"></h2>
+    <h2>Compétence</h2>
   <div class="dashboard">
     <div class="html">
-  <svg>
+   <svg>
     <circle class="bg" cx="57" cy="57" r="52" />
     <circle class="meter-1" cx="57" cy="57" r="52" /> 
-  </svg>
-  <h2>html</h2>
-  </div>
-  <div class="css">
-  <svg>
+   </svg>
+   <h2>html</h2>
+   </div>
+   <div class="css">
+   <svg>
     <circle class="bg" cx="57" cy="57" r="52" />
     <circle class="meter-2" cx="57" cy="57" r="52" />
+   </svg>
+   <h2>CSS</h2>
+   </div>
+   <div class="js">
+   <svg>
+    <circle class="bg" cx="57" cy="57" r="52" />
+    <circle class="meter-3" cx="57" cy="57" r="52" />
+    </svg>
+   <h2>Js</h2>
+   </div>
+  <div class="php">
+   <svg>
+    <circle class="bg" cx="57" cy="57" r="52" />
+    <circle class="meter-4" cx="57" cy="57" r="52" />
   </svg>
   <h2>CSS</h2>
   </div>
-  <div class="js">
-  <svg>
-    <circle class="bg" cx="57" cy="57" r="52" />
-    <circle class="meter-3" cx="57" cy="57" r="52" />
-  </svg>
-  <h2>Js</h2>
-  </div>
+ </div>
 </div>
+
+<div class="projet">
+<h2 id="projet"></h2>
+
+    <div class="metropolis">
+    <div class="container">
+    <div class="cards">
+ 
+      <section class="card">
+        <figure>
+          <div class="img-overlay">
+            <img src="https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png" alt="Trulli">
+            <div class="overlay"><a href="http://cedric.simplon-charleville.fr/Projet/Metropolis/index.php">Voir le site</a></div>
+            <div class="cont">
+              <div class="icons-img">
+      
+              </div>
+            </div>
+          </div>
+          <figcaption>Metropolis</figcaption>
+        </figure>
+        <div class="card-content">
+          <p>Premier projet réalisé sur le theme d'un site netflix like</p>.
+
+
+        </div>
+
+    
+    </div>
+
   </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
 
