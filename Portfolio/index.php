@@ -93,11 +93,11 @@
 
   <div class="info">
   <h2 id="information"></h2>
+  <h2>Information</h2><br>
       <div class="photo">
       </div>
       <div class="intro">
 
-        <h2>Information</h2><br>
         <p><span>B</span>onjour et Bienvenue sur mon portfolio ! Je m'appelle Cédric Furlan. Souhaitant faire un métier dans un domaine qui me plait je me suis inscrit à la formation de développeur web et mobile de Simplon Charleville. Vous découvrirez ici mes compétences et les divers projets auquel j'ai participé durant ma formation.</p>
       </div>
       
@@ -133,23 +133,78 @@
     <circle class="bg" cx="57" cy="57" r="52" />
     <circle class="meter-4" cx="57" cy="57" r="52" />
   </svg>
-  <h2>CSS</h2>
+  <h2>PHP</h2>
   </div>
  </div>
 </div>
 
 <div class="projet">
 <h2 id="projet"></h2>
+<h2>Mes projets</h2>
 
-    <div class="metropolis">
+   
     <div class="container">
-    <div class="cards">
+     <div class="cards">
+
+     <section class="card">
+        <figure>
+          <div class="img-overlay">
+            <img src="img/Simplon.png" alt="Trulli">
+            <div class="overlay"><a href="https://cedric.simplon-charleville.fr/Projet/Simplon-Pc/" target="_blank">Voir le site</a></div>
+            <div class="cont">
+              <div class="icons-img">
+      
+              </div>
+            </div>
+          </div>
+          <figcaption>Simplon-pc</figcaption>
+        </figure>
+        <div class="card-content">
+          <p>Premier projet réalisé en groupe, je me suis occupé de la page de contact et des différentes Navbarre et Footer.</p>
+        </div>
+  </section>
+
+     <section class="card">
+        <figure>
+          <div class="img-overlay">
+            <img src="img/JoGee.png" alt="Trulli">
+            <div class="overlay"><a href="https://cedric.simplon-charleville.fr/Projet/JoGee/" target="_blank">Voir le site</a></div>
+            <div class="cont">
+              <div class="icons-img">
+      
+              </div>
+            </div>
+          </div>
+          <figcaption>JoGee</figcaption>
+        </figure>
+        <div class="card-content">
+          <p>Projet One-page réalisé en groupe.</p>
+        </div>
+  </section>
  
       <section class="card">
         <figure>
           <div class="img-overlay">
+            <img src="img/Travala.png" alt="Trulli">
+            <div class="overlay"><a href="https://cedric.simplon-charleville.fr/Projet/Voyage/" target="_blank">Voir le site</a></div>
+            <div class="cont">
+              <div class="icons-img">
+      
+              </div>
+            </div>
+          </div>
+          <figcaption>Travalia</figcaption>
+        </figure>
+        <div class="card-content">
+          <p>Projet réalisé sur le thème d'une agence de voyage où je me suis occupé de la partie "Nos agences" et "Avis utilisateurs".</p>
+        </div>
+  </section>
+
+  <section class="card">
+        <figure>
+          <div class="img-overlay">
             <img src="https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png" alt="Trulli">
-            <div class="overlay"><a href="http://cedric.simplon-charleville.fr/Projet/Metropolis/index.php">Voir le site</a></div>
+            <div class="overlay"><a href="http://cedric.simplon-charleville.fr/Projet/Metropolis/index.php" target="_blank">Voir le site</a></div>
             <div class="cont">
               <div class="icons-img">
       
@@ -159,31 +214,45 @@
           <figcaption>Metropolis</figcaption>
         </figure>
         <div class="card-content">
-          <p>Premier projet réalisé sur le theme d'un site netflix like</p>.
-
-
+          <p>Premier projet réalisé sur le thème d'un site netflix like.</p>
         </div>
-
-    
+  </section>
     </div>
-
-  </div>
-  </div>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
+<footer id="footer-2-cols" class="site-footer">
+        <div id="footer-container">
+            <div id="footer-grid">
+            <div id="left-footer-section" class="footer-section">
+                    
+                <div class="footer-information">
+                  
+                    <p><img src="https://img.icons8.com/ios-filled/12/999999/phone.png">06.11.65.34.17</p>
+                    <p><img src="https://img.icons8.com/ios-filled/12/999999/mail.png">furlancedric@gmail.com</p>
+                  
+                </div>
+            </div>
+            <div id="right-footer-section" class="footer-section">
+                <div class="footer-links">
+                    <ul>
+                        <li role="menuitem"><a href="#">Accueil</a></li>
+                        <li role="menuitem"><a href="#info">Infirmation</a></li>
+                        <li role="menuitem"><a href="#competences">Compétences</a></li>
+                        <li role="menuitem"><a href="#projet">Mes projets</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div id="copyright-information">
+                <div id="footer-logo-section">
+                <div id="copyright-text">
+                Furlan Cedric - copyright © 2022
+                </div>
+                
+            </div>
+    </div>
+</footer>
 
 
 
